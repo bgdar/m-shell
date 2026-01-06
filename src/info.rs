@@ -1,4 +1,6 @@
-use std::{borrow::Cow, fmt::format, iter::Enumerate};
+use std::{borrow::Cow, fmt::format, fs, iter::Enumerate};
+
+use crate::shell_config::get_path_log;
 
 // menggunakn Cow agar flexsibel String atau &str
 pub enum InfoLine<'a> {
@@ -22,8 +24,10 @@ impl<'a> InfoLine<'a> {
         }
     }
     // simpan ke log file nantik
-    //     pub fn wrirte_log() {
-    //
-    //
-    // }
+        pub fn wrirte_log(&self ) {
+        // let var = get_path_log(config)
+
+        // dapatkan path file dari shell_config.r 
+
+    }
 }

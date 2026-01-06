@@ -10,6 +10,7 @@
 </p>
 
 - `crossterm` => untuk menghandle input dan parsing key di terminal
+- `toml` > untuk management config file 
 
 ### daftar target fitur shell
 

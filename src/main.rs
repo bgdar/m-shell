@@ -1,6 +1,7 @@
 mod command;
 mod events;
 mod info;
+mod shell_config;
 
 use std::{
     io::{self, Write},
