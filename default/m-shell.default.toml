@@ -1,0 +1,20 @@
+path_config = "path/default/"
+path_log = "path/default/"
+
+[alias]
+ls = ""
+clear = ""
+
+[plugin]
+
+[keys]
+copy = "ctrl + shift + y"
+stop = "ctrl + c"
+
+[shell]
+schema = "username"
+character = "↳"
+
+[command_selection] # aplikasi yang akan digunakan untuk shell
+tui_tools = ["nvim", "lazygit","btop"]
+gui_app = ["firefox"]

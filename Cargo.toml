@@ -5,5 +5,6 @@ edition = "2024"
 
 [dependencies]
 crossterm = "0.29.0"
-serde = "1.0.228"
+serde = { version = "1.0.228" , features = ["derive"]}
+dirs = "6.0.0"
 toml = "0.9.10"

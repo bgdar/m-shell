@@ -1,0 +1,20 @@
+
+[alias]
+ls = ""
+clear = ""
+
+[plugin]
+plugin = "kosong"
+
+[keys]
+copy = "ctrl + shift + y"
+stop = "ctrl + c"
+
+[shell]
+shchema = "username"
+character = "↳"
+
+[command_selection] # aplikasi yang akan digunakan untuk shell
+tui_app = ["nvim", "lazygit"]
+gui_app = ["firefox"]
+
